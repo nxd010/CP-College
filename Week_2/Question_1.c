@@ -7,7 +7,7 @@ int main() {
   printf("Enter an operator (+, -, *, /): ");
   scanf("%c", &op);
   printf("Enter two operands: ");
-  scanf("%lf %lf", &first, &second);
+  scanf("%lf %lf", &first, &second); //%lf is used for Double %f is used for Float
 
   switch (op) {
     case '+':
